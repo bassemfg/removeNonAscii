@@ -16,11 +16,11 @@ namespace removeNonAscii
             Queue headers = new Queue();
             StringBuilder sb = new StringBuilder();
             StringBuilder sbFileRemoveSpaces = new StringBuilder();
-           // String[] columns = null;
+            //String[] columns = null;
             string line = "";
             //object[] columnNames = null;
             StreamReader sr = null;
-            Stream stream = null;
+            //Stream stream = null;
             StreamWriter sw = new StreamWriter(@"c:\test\metadata\metadata_asciionly.csv");
             FileInfo file = new FileInfo(@"c:\test\metadata\metadata.csv");
             //stream = f.OpenText().BaseStream;
