@@ -32,8 +32,6 @@ namespace removeNonAscii
                 line = sr.ReadLine();
                 if (line.Trim().Length > 0) 
                 {
-                    if (line.IndexOf(".") > 0)
-                      i++; // Console.WriteLine(line);
                     line = Encoding.ASCII.GetString(Encoding.ASCII.GetBytes(line));
                     sb.Append(line);
                     sb.Append(@"
